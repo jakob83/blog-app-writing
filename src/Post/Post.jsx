@@ -215,7 +215,7 @@ function Post() {
       return setError(error.msg || error.error || 'Something went wrong');
     }
   };
-
+  console.log(import.meta.env.VITE_TINY_API_KEY);
   return (
     <>
       <Header />
